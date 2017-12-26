@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+</head>
+
+<body background="~/Image/sony.JPG">
+
+    <div>
+
+
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Welcome to HomePage</h1>
+
+            </div>
+            
+            
+            @Html.ActionLink("Products", "Products", "Product")
+            <br />
+            @Html.ActionLink("Services", "Services", "Service")
+
+
+        </div>
+   </div>
+</body>
+</html>
